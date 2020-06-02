@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID - layout</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GRID - layout</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,500,600,700&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <h1>Cezary Gawroński</h1>
-</body>
-
+  <body>
+    <h1>Cezary Gawroński</h1>
+    <div class="grid-container">
+      <div class="grid-item grid-item--margin-left">1</div>
+      <ul class="grid-item grid-item__list">
+        2
+        <li>
+          <a class="grid-item__link" href="#">linki-menu</a>
+        </li>
+        <li>
+          <a class="grid-item__link" href="#">linki-menu</a>
+        </li>
+        <li>
+          <a class="grid-item__link" href="#">linki-menu</a>
+        </li>
+        <li>
+          <a class="grid-item__link" href="#">linki-menu</a>
+        </li>
+      </ul>
+      <div class="grid-item grid-item--margin-right">3</div>
+      <div class="grid-item grid-item-title">4 Radca prawny</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item grid-item-figure">
+        <img
+          class="mateusz"
+          src="../assets/img/matuszewski-mateusz-first.png"
+          alt="Mateusz Matuszewski"
+        />
+        6
+      </div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">
+        8
+      </div>
+      <div class="grid-item">9</div>
+      <div class="grid-item">10</div>
+      <div class="grid-item">11</div>
+    </div>
+  </body>
 </html>
